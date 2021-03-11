@@ -6,9 +6,8 @@ import android.text.TextUtils;
 import android.widget.TextView;
 
 import com.alibaba.android.arouter.demo.module1.R;
-import com.alibaba.android.arouter.facade.annotation.Route;
 
-@Route(path = "/test/activity4")
+//@Route(path = "/test/activity4")
 public class Test4Activity extends AppCompatActivity {
 
     @Override

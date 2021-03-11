@@ -5,7 +5,6 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.alibaba.android.arouter.demo.service.HelloService;
-import com.alibaba.android.arouter.facade.annotation.Route;
 
 /**
  * TODO feature
@@ -14,7 +13,7 @@ import com.alibaba.android.arouter.facade.annotation.Route;
  * @version 1.0
  * @since 2017/1/3 10:26
  */
-@Route(path = "/yourservicegroupname/hello")
+//@Route(path = "/yourservicegroupname/hello")
 public class HelloServiceImpl implements HelloService {
     Context mContext;
 

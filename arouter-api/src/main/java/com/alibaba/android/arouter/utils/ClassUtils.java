@@ -78,12 +78,15 @@ public class ClassUtils {
                         }
 
                         Enumeration<String> dexEntries = dexfile.entries();
+                        int num = 0;
                         while (dexEntries.hasMoreElements()) {
+                            num++;
                             String className = dexEntries.nextElement();
                             if (className.startsWith(packageName)) {
                                 classNames.add(className);
                             }
                         }
+                        Log.e("ARouter", "Scan map file number::::." + num);
                     } catch (Throwable ignore) {
                         Log.e("ARouter", "Scan map file in dex files made error.", ignore);
                     } finally {

@@ -3,9 +3,7 @@ package com.alibaba.android.arouter.demo.module1;
 import android.app.Activity;
 import android.os.Bundle;
 
-import com.alibaba.android.arouter.facade.annotation.Route;
-
-@Route(path = "/module/1")
+//@Route(path = "/module/1")
 public class TestModuleActivity extends Activity {
 
     @Override

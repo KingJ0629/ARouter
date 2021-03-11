@@ -20,6 +20,9 @@ android {
 
         javaCompileOptions {
             annotationProcessorOptions {
+                // 两个参数
+                // AROUTER_MODULE_NAME用于定义文件名和打印日志
+                // AROUTER_GENERATE_DOC 用户开启文档输出
                 arguments = [AROUTER_MODULE_NAME: project.getName(), AROUTER_GENERATE_DOC: "enable"]
             }
         }
